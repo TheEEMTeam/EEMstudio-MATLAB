@@ -1,0 +1,29 @@
+To remove/restore data click on a plot and draw a square, then use one of the key combinations listed.
+
+In DATA PROFILE and PSEUDOSECTION:
+• Alt+Q    remove the selected measurements;
+• Alt+A    restore the selected measurements;
+
+In DECAYS and DATA STRIPE:
+• Alt+Q    remove the selected gates;
+• Alt+A    restore the selected gates;
+• Alt+W    remove from the first gate in the plot to the last gate selected, for the decays in which there is a selection;
+• Alt+S    restore from the first gate in the plot to the last gate selected, for the decays in which there is a selection;
+• Alt+E    remove from the first selected gate to the last gate in the plot, for the decays in which there is a selection;
+• Alt+D    restore from the first selected gate to the last gate in the plot, for the decays in which there is a selection;
+• Alt+N    remove the selected gates, if negative;
+• Alt+M    restore the selected gates, if positive;
+• Shift+Q  remove all the gates from the decays in which there is a selection;
+• Shift+A  restore all the gates from the decays in which there is a selection;
+• Shift+N  remove all the negative gates from the decays in which there is a selection;
+• Shift+M  restore all the positive gates from the decays in which there is a selection.
+
+Additionally, only in DATA STRIPE and PATCHWORK:
+• Ctrl+Q   remove all the gates selected from all the decays of the set;
+• Ctrl+A   restore all the gates selected from all the decays of the set;
+• Ctrl+N   remove all the gates selected from all the decays of the set, if negative;
+• Ctrl+M   restore all the gates selected from all the decays of the set, if positive.
+
+Without the selection needed and for all the plots:
+• Ctrl+Z   ‘undo’, to reverse the last action (maximum 10 times);
+• Ctrl+Y   ‘redo’, to reverse the last ‘undo’ action (maximum 10 times).
